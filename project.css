@@ -142,8 +142,66 @@ ul.icon{
 }
 
 
-/* Extra small devices (phones, 600px and down) */
-@media (max-width: 632px) {
+@media screen and (max-width: 632px){
+    .navbar{
+        position: fixed;
+        width:100%;
+        background-color:white;
+        height: 9%;
+
+    }
+    .navbar p img{
+        margin-top:-65px;
+    }
+    ul.button{
+        margin-left: 220px;
+        margin-top: -90.25px;
+    }
+
+    input{
+        height:35px;
+        width: 13%;
+        }
+        button.search{
+            width: 13%;
+            height: 39px;
+            margin:-5px;
+        }
+        button.micro{
+            width: 39px;
+            height: 39px;
+            border-radius: 50%;
+            border: none;
+            margin:9px;
+            font-size: 15px;
+        }
+    ul.icon{
+        margin-top: -65px;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: px 20px;
+        padding: 0px 20px;
+        column-gap:20px;
+    }
+    .grid-container>div {
+    
+        margin-top: 40px;
+        width: 210px;
+
+    }   
+    .fame{
+        height: 100;
+        width: 260px;
+    }
+    
+}
+    
+
+
+
+/* @media (max-width: 632px) { 
     .navbar{
     position: fixed;
     width:100%;
@@ -221,7 +279,7 @@ ul.icon{
         column-gap:20px;
     }
     .grid-container>div {
-        /* background-color: rgba(255, 255, 255, 0.8); */
+    
         margin-top: 40px;
         width: 210px;
 
@@ -231,8 +289,6 @@ ul.icon{
         width: 260px;
     }
     
-     
-
 }
 @media (max-width:511px){
     .navbar{
@@ -272,11 +328,10 @@ ul.icon{
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width:1024px) {
+@media(max-width:1024px) {
     .navbar{
-        background-color: white;
-        width: 97.7%;
+        background-color:red;
+        width: 80%;
         height: 10%;
     }
     .navbar p img{
@@ -313,15 +368,15 @@ ul.icon{
         font-size: 16px;
     }
     .fame{
-    height: 170px;
-    width: 285px;
+    height: 200px;
+    width: 270px;
     }
-    .grid-container{
-    
-    width:86.7%;
+    .grid-container{   
+    width:;
     grid-template-columns: auto auto auto;
-    }
+    column-gap:1px;
 }
+} */
 
 
 /* Medium devices (landscape tablets, 768px and up) */
